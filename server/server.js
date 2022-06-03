@@ -3,7 +3,7 @@ const socket_io = require("socket.io");
 const httpServer = http.createServer();
 const io = new socket_io.Server(httpServer, {
   cors: {
-    origin: "http://127.0.0.1:5500",
+    origin: "*",
     methods:['GET',"POST"]
   },
 });
