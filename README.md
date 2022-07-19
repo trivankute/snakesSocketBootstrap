@@ -4,7 +4,6 @@ The first version of snake, that can play online through socket.io and express. 
 It has only enough abilities for playing online. 
   + 1 player will create room, and send the room ID to your friend. And the game starts immediately.
   + The game ends when the snake bites itself or hits the wall. <br>
-  + 
 Some lacking functions: 
   + It does not have the ability to count time 3 2 1 Start.
   + Can't calculate score, the snake is just longer.
