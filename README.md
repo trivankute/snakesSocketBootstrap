@@ -1,5 +1,5 @@
 # snakesSocketBootstrap
-The first version of snake, that can play online through socket.io and express. The server has held on heroku.
+The first version of snake, that can play online through socket.io and express. The fronted and the server has been held on netlify and heroku respectively.
 <br>
 It has only enough abilities for playing online. 
   + 1 player will create room, and send the room ID to your friend. And the game starts immediately.
